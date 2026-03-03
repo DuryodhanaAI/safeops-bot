@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+echo "=== Razorpay Payment Ops Monitor (Sandbox) ==="
+echo ""
+echo "Simulated last 5 transactions:"
+echo "2026-03-03T10:00:00Z | pay_Abc123 | INR 5000 | SUCCESS | UPI"
+echo "2026-03-03T09:55:00Z | pay_Def456 | INR 1200 | FAILED  | Card"
+echo "2026-03-03T09:50:00Z | pay_Ghi789 | INR 3400 | SUCCESS | NetBanking"
+echo "2026-03-03T09:45:00Z | pay_Jkl012 | INR 800  | SUCCESS | UPI"
+echo "2026-03-03T09:40:00Z | pay_Mno345 | INR 9999 | FLAGGED | International Card"
+echo ""
+echo "⚠️  1 failed payment, 1 flagged transaction require review."
+echo "Recommendation: Investigate pay_Def456 and pay_Mno345 immediately."

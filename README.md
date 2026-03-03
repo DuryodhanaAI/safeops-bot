@@ -1,5 +1,12 @@
 # 🦞 SafeOps Bot — OpenClaw DevOps Copilot
 
+![CI](https://github.com/DuryodhanaAI/safeops-bot/actions/workflows/ci.yml/badge.svg)
+![OpenClaw](https://img.shields.io/badge/Built%20with-OpenClaw-red?logo=data:image/png;base64,iVBORw0KGgo=)
+![Telegram](https://img.shields.io/badge/Channel-Telegram-blue?logo=telegram)
+![WSL2](https://img.shields.io/badge/Runs%20on-WSL2-green?logo=linux)
+
+
+
 A Telegram-first DevOps assistant built on [OpenClaw](https://openclaw.ai), running locally on WSL2.
 SafeOps Bot checks GitHub CI status, reviews PRs, and gates deployments behind human approval — all from Telegram.
 
