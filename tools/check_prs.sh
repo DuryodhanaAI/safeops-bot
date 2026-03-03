@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-REPO="${1:-titanite07/autonomous-research-agent}"
+REPO="${1:-DuryodhanaAI/safeops-bot}"
 echo "=== Open PRs for $REPO ==="
 gh pr list --repo "$REPO" --state open \
   --json number,title,author,createdAt \
